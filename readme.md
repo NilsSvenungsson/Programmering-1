@@ -6,3 +6,6 @@ Torsdag: Idag har jag skrivit provet och skrivit for loops. Det var lite svårt 
 
 Vecka 42:
 Torsdag: Idag har jag gjort hela sidan 7096. Det var lite svårt att förstå varför man skrev vissa saker då det inte spelade någon roll vad man skrev bara det stod samma på 2 av ställena.
+
+Vecka 46:
+Torsdag: Idag har jag kollat på funtionsanrop inför prov 9. Det har gått bra men var trött så fick inte mycket gjort.
