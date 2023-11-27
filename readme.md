@@ -12,3 +12,6 @@ Torsdag: Idag har jag kollat på funtionsanrop inför prov 9. Det har gått bra 
 
 Vecka 47:
 Torsdag: Idag har jag gjort prov 9 och pluggat inför prov 10 genom att börja på övningsprovet och skriva lite funktioner.
+
+Vecka 48:
+Måndag: Idag ska jag plugga inför prov 10.
