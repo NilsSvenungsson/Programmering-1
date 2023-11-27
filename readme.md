@@ -9,3 +9,6 @@ Torsdag: Idag har jag gjort hela sidan 7096. Det var lite svårt att förstå va
 
 Vecka 46:
 Torsdag: Idag har jag kollat på funtionsanrop inför prov 9. Det har gått bra men var trött så fick inte mycket gjort.
+
+Vecka 47:
+Torsdag: Idag har jag gjort prov 9 och pluggat inför prov 10 genom att börja på övningsprovet och skriva lite funktioner.
