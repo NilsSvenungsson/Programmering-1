@@ -1,3 +1,4 @@
+*Visa regler
 *Fixa karta
 *Random sätta ut båtar
 *Kunna gissa vart båtar är och få reda på om man hade rätt eller inte
