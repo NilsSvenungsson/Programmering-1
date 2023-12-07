@@ -4,6 +4,8 @@ Loggbok
 Vecka 49:
 Måndag: Idag har jag valt att göra sänka skepp som projekt och satt upp mål för projektet.
 
+Torsdag: Idag har jag sökt upp en tutorial på hur man gör sänka skepp med python och börjat lite smått.
+
 Vecka 41:
 Torsdag: Idag har jag skrivit provet och skrivit for loops. Det var lite svårt för jag glömde av hur man gjorde sen senaste genomgången men tror jag vet hur man gör.
 
