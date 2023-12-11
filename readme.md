@@ -1,6 +1,9 @@
 Loggbok
 -------
 
+Vecka 50:
+Måndag: Idag har jag organiserat för att definera de funktioner jag behöver.
+
 Vecka 49:
 Måndag: Idag har jag valt att göra sänka skepp som projekt och satt upp mål för projektet.
 

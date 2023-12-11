@@ -1,10 +1,20 @@
 gömd_bräda = [[" "] * 8 for x in range(8)]
 gissa_bräda = [[" "] * 8 for x in range(8)]
 
-bokstäver_till_siffror = {"a": 0, "b": 1, "c": 2, "d": 3, "e":4, "f": 5, "g": 6, "h": 7}
+bokstäver_till_siffror = {"A": 0, "B": 1, "C": 2, "D": 3, "E":4, "F": 5, "G": 6, "H": 7}
 
 def bräda():
     pass
+
+def skapa_skepp():
+    pass
+
+def få_skepp_plats():
+    pass
+
+def räkna_träff_skepp():
+    pass
+    
 
 def regler():
     print("Regler:")
