@@ -1,6 +1,9 @@
 Loggbok
 -------
 
+Vecka 3:
+Måndag: Idag har jag bytt projekt till blackjack. Jag har skapat kortleken, gjort så att den blandas, skapat spelar och dealer händerna och gjort en funktion som delar ut de första korten till spelaren och dealersen. De sidor jag använt när jag behövde veta hur jag blandar kortleken och för att ta index från kortleken och ta kortet till spelaren eller dealern var: https://www.w3schools.com/python/ref_random_shuffle.asp https://rikardkarlsson.se/programmering/uppgifter.php?url=7100-listor
+
 Vecka 50:
 Måndag: Idag har jag organiserat för att definera de funktioner jag behöver.
 
