@@ -6,7 +6,7 @@ player = []
 
 dealer = []
 
-choice = "hit"
+
 
 random.shuffle(kortlek)
 
@@ -23,8 +23,14 @@ def start():
     print(player[0], player[1])
     print(dealer[0], "x")
 
+def bust():
+    print("bust", player, sum(player))
+
 def chose():
-    while choice.lower() == "hit":
+    choice = "hit"
+    while choice == "hit":
+        if sum(player) > 21:
+            print(bust())
         choice = input("hit or stay:")
         if choice.lower() == "hit":
             player.append(kortlek[0])
@@ -32,8 +38,6 @@ def chose():
             print(player[0], player[1], player[2])
         elif choice.lower() == "stay":
             print(sum(player))
-        elif sum(player) < 21:
-            print("bust")
 
 
 start()
