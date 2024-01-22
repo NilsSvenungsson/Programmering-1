@@ -26,6 +26,9 @@ def start():
 def bust():
     print("bust", player, sum(player))
 
+def dealerbust():
+    print("bust", dealer, sum(dealer))
+
 def chose():
     choice = "hit"
     while choice == "hit":
@@ -39,7 +42,18 @@ def chose():
         elif choice.lower() == "stay":
             print(sum(player))
 
+def dealer():
+    while sum(dealer) < 16:
+        dealer.append(kortlek[0])
+        kortlek.pop(0)
+        print(dealer, sum(dealer))
+    if sum(dealer) > 21:
+        dealerbust()
+
+
 
 start()
 
 chose()
+
+dealer()

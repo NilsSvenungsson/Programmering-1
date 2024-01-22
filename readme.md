@@ -1,5 +1,8 @@
 Loggbok
 -------
+Vecka 4:
+Måndag: Idah har jag gjort så att dealern tar upp kort tills hans hand har värdet över 16 och så att han kan bli chock om han får över 21 på handen. Fick ett error jag inte borde få så jag ska lösa det nästra vecka.
+
 
 Vecka 3:
 Torsdag: Idag har jag gjort så att spelaren kan välja om den ska få ett till kort eller stanna samt att den kan bli chock. Det svåra var att jag var tvungen att köra if satser i en while sats för att kunna välja att dra ett kort igen. Visste inte heller att om man ska använda en variabel i en funktion så var variabeln tvungen att vara definerad i funktionen.
