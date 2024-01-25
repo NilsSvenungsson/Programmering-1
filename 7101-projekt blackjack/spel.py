@@ -50,6 +50,8 @@ def dealer():
     if sum(dealer) > 21:
         dealerbust()
 
+def end():
+    if 
 
 
 start()
