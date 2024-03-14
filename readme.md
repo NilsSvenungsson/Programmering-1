@@ -1,7 +1,13 @@
 Loggbok
 -------
+
+Vecka 11:
+Torsdag: Idag har jag fixat ett error, problemet var att en lista och funktion hade samma namn vilket gjorde att det blev fel. Det var svårt att lösa problemet men med hjälp av Rickard hittade han problemet.
+Idag har jag också gjort noteringar i koden och gjort så att spelar handen printas snyggt och så att fler än 3 kort printas.
+
+
 Vecka 4:
-Måndag: Idah har jag gjort så att dealern tar upp kort tills hans hand har värdet över 16 och så att han kan bli chock om han får över 21 på handen. Fick ett error jag inte borde få så jag ska lösa det nästra vecka.
+Måndag: Idag har jag gjort så att dealern tar upp kort tills hans hand har värdet över 16 och så att han kan bli chock om han får över 21 på handen. Fick ett error jag inte borde få så jag ska lösa det nästra vecka.
 
 
 Vecka 3:
