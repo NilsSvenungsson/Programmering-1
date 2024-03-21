@@ -1,6 +1,9 @@
 Loggbok
 -------
 
+Vecka 12:
+Måndag: Idag har jag fixat så att saker skrivs ut snyggare och så att det är tydligt vem som vann.
+
 Vecka 11:
 Torsdag: Idag har jag fixat ett error, problemet var att en lista och funktion hade samma namn vilket gjorde att det blev fel. Det var svårt att lösa problemet men med hjälp av Rickard hittade han problemet.
 Idag har jag också gjort noteringar i koden och gjort så att spelar handen printas snyggt och så att fler än 3 kort printas.
