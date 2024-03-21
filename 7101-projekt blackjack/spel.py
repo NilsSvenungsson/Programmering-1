@@ -32,16 +32,19 @@ def start(player, dealer):
 
 def bust():
     print("bust", player, sum(player))
+    print("dealern vann! ", sum(dealer), dealer)
 
 #Dealer bust
-
 def dealerbust():
     print("bust", dealer, sum(dealer))
+    print("Du vann! ", sum(player), player)
 
 
 #Välj
 
 def chose():
+    if sum(player) > 21:
+        choice = "stay"
     choice = "hit"
     while choice == "hit":
         if sum(player) > 21:
@@ -86,11 +89,12 @@ def end():
 
 def winner():
     if sum(player) > sum(dealer):
-        print("Du vann!", "Din summa: ", sum(player), "Dealerns summa: ", sum(player))
+        print("Du vann!", "Din summa: ", sum(player), "Dina kort: ", player, "Dealerns summa: ", sum(dealer), "Dealerns kort: ", dealer)
     elif sum(player) == sum(dealer):
-        print("Oavjort!", "Din summa: ", sum(player), "Dealerns summa: ", sum(player))
+        print("Oavjort!", "Din summa: ", sum(player), "Dina kort: ", player, "Dealerns summa: ", sum(dealer), "Dealerns kort: ", dealer)
     else:
-        print("Du vann!", "Din summa: ", sum(player), "Dealerns summa: ", sum(player))
+        print("Dealern vann", "Din summa: ", sum(player), "Dina kort: ", player, "Dealerns summa: ", sum(dealer), "Dealerns kort: ", dealer)
+
 
 
 start(player, dealer)
