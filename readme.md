@@ -1,6 +1,10 @@
 Loggbok
 -------
 
+Vecka 16:
+Måndag: Idag har jag gjort så man kan spela igen utan att starta om programmet.
+
+
 Vecka 12:
 Måndag: Idag har jag fixat så att saker skrivs ut snyggare och så att det är tydligt vem som vann.
 
