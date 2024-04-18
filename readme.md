@@ -2,6 +2,8 @@ Loggbok
 -------
 
 Vecka 16:
+Torsdag: Idag har jag gjort små fixar, pratat betyg med Rickard och försökt lösa en bugg som är att spelet frågar "hit or stay" när man är bust.
+
 Måndag: Idag har jag gjort så man kan spela igen utan att starta om programmet.
 
 
