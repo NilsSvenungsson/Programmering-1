@@ -1,6 +1,9 @@
 Loggbok
 -------
 
+Vecka 17:
+Måndag: Idag har jag fixat buggar med hjälp utav Rickard och Joel
+
 Vecka 16:
 Torsdag: Idag har jag gjort små fixar, pratat betyg med Rickard och försökt lösa en bugg som är att spelet frågar "hit or stay" när man är bust.
 

@@ -19,9 +19,13 @@ def start(player, dealer):
 
 #Bust
 
+has_bust = False
+
 def bust():
     print("bust", player, sum(player))
     print("dealern vann! ", sum(dealer), dealer)
+    return True
+
 
 #Dealer bust
 def dealerbust():
@@ -31,21 +35,22 @@ def dealerbust():
 
 #Välj
 
-def chose():
+def chose(has_bust):
+    choice = "hit"
     if sum(player) > 21:
         choice = "stay"
-    choice = "hit"
     while choice == "hit":
         if sum(player) > 21:
             choice = "stay"
-            print(bust())
-        choice = input("hit or stay:")
+            has_bust = bust()
+        else:
+            choice = input("hit or stay:")
         if choice.lower() == "hit":
             player.append(kortlek[0])
             kortlek.pop(0)
             print_player_hand()
             
-        elif choice.lower() == "stay":
+        elif choice.lower() == "stay" and has_bust == False:
             print(sum(player))
 
 
@@ -94,7 +99,8 @@ while spela.lower() == "ja":
     #Blandar kortleken
     random.shuffle(kortlek)
     start(player, dealer)
-    chose()
-    dealer_play()
+    chose(has_bust)
+    if has_bust == False:
+        dealer_play()
     winner()
     spela = str(input("Vill du spela igen?: "))
