@@ -82,11 +82,11 @@ def end():
 #Avgör vem som vann
 
 def winner():
-    if sum(player) > sum(dealer):
+    if 21 <= sum(player) > sum(dealer):
         print("Du vann!", "Din summa: ", sum(player), "Dina kort: ", player, "Dealerns summa: ", sum(dealer), "Dealerns kort: ", dealer)
     elif sum(player) == sum(dealer):
-        print("Oavjort!", "Din summa: ", sum(player), "Dina kort: ", player, "Dealerns summa: ", sum(dealer), "Dealerns kort: ", dealer)
-    else:
+        print("Dealer vann!", "Din summa: ", sum(player), "Dina kort: ", player, "Dealerns summa: ", sum(dealer), "Dealerns kort: ", dealer)
+    elif 21 <= sum(dealer) > sum(player):
         print("Dealern vann", "Din summa: ", sum(player), "Dina kort: ", player, "Dealerns summa: ", sum(dealer), "Dealerns kort: ", dealer)
 
 
@@ -100,7 +100,6 @@ while spela.lower() == "ja":
     random.shuffle(kortlek)
     start(player, dealer)
     chose(has_bust)
-    if has_bust == False:
-        dealer_play()
+    dealer_play()
     winner()
     spela = str(input("Vill du spela igen?: "))

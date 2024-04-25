@@ -2,6 +2,8 @@ Loggbok
 -------
 
 Vecka 17:
+Torsdag: Idag försökte jag lösa en bugg och löste det halvt. Det står fortfarande att dealern vann även fast att spelaren vann.
+
 Måndag: Idag har jag fixat buggar med hjälp utav Rickard och Joel
 
 Vecka 16:
