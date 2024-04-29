@@ -82,7 +82,7 @@ def end():
 #Avgör vem som vann
 
 def winner():
-    if 21 <= sum(player) > sum(dealer):
+    if 21 <= sum(player) > sum(dealer) and sum(dealer) < 21:
         print("Du vann!", "Din summa: ", sum(player), "Dina kort: ", player, "Dealerns summa: ", sum(dealer), "Dealerns kort: ", dealer)
     elif sum(player) == sum(dealer):
         print("Dealer vann!", "Din summa: ", sum(player), "Dina kort: ", player, "Dealerns summa: ", sum(dealer), "Dealerns kort: ", dealer)

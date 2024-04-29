@@ -1,6 +1,9 @@
 Loggbok
 -------
 
+Vecka 18:
+Måndag: Idag har jag tagit min gamla kod från github och börjat därifrån då mitt dokument har massor med fel som har kommit till för att jag har fixat ett annat.
+
 Vecka 17:
 Torsdag: Idag försökte jag lösa en bugg och löste det halvt. Det står fortfarande att dealern vann även fast att spelaren vann.
 
