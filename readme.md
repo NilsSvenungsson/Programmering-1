@@ -1,6 +1,9 @@
 Loggbok
 -------
 
+Vecka 19:
+Måndag: Idag har jag gjort så att man inte kan välja "hit or stay" som input  efter man har blivit bust. Har också börjat på att lösa problemet som gör att man kan vinna även fast att man är bust.
+
 Vecka 18:
 Måndag: Idag har jag tagit min gamla kod från github och börjat därifrån då mitt dokument har massor med fel som har kommit till för att jag har fixat ett annat.
 

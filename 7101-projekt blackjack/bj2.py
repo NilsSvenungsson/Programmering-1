@@ -47,14 +47,15 @@ def chose():
         if sum(player) > 21:
             choice = "stay"
             print(bust())
-        choice = input("hit or stay:")
-        if choice.lower() == "hit":
-            player.append(kortlek[0])
-            kortlek.pop(0)
-            print_player_hand()
+        elif choice.lower() == "hit":
+            choice = input("hit or stay:")
+            if choice == "hit":
+                player.append(kortlek[0])
+                kortlek.pop(0)
+                print_player_hand()
             
-        elif choice.lower() == "stay":
-            print(sum(player))
+            elif choice.lower() == "stay":
+                print(sum(player))
 
 
 def print_player_hand():
@@ -85,12 +86,12 @@ def end():
 #Avgör vem som vann
 
 def winner():
-    if sum(player) > sum(dealer):
+    if 21 > sum(player) > sum(dealer):
         print("Du vann!", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
-    elif sum(player) == sum(dealer):
-        print("Oavjort!", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
-    else:
-        print("Du vann!", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
+    elif 21 > sum(player) == sum(dealer):
+        print("Dealern vann!", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
+    elif 21 > sum(dealer) > sum(player):
+        print("Dealern vann!", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
 
 
 start(player, dealer)
