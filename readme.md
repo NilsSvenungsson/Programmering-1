@@ -1,6 +1,9 @@
 Loggbok
 -------
 
+Vecka 20:
+Måndag: Idag har jag fixat buggar som gör att spelet inte slutar om man blir bust. Det var ganska lätt. Nästa gång ska jag nog snygga till hur saker printas samt göra så att man kan få black jack med 2 kort.
+
 Vecka 19:
 Måndag: Idag har jag gjort så att man inte kan välja "hit or stay" som input  efter man har blivit bust. Har också börjat på att lösa problemet som gör att man kan vinna även fast att man är bust.
 

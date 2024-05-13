@@ -1,18 +1,6 @@
 import random
 
-#Variabler och listor
-
-kortlek = [2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11]
-
-
-dealer = []
-
-player = []
-
-#Blandar kortleken
-
-random.shuffle(kortlek)
-
+spela = "ja"
 
 #Delar ut kort
 
@@ -96,11 +84,25 @@ def winner():
         print("Dealern vann!", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
 
 
-start(player, dealer)
+while spela.lower() == "ja":
+    #Variabler och listor
 
-chose()
+    kortlek = [2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11]
 
-if sum(player) <= 21:
-    dealer_play()
+    dealer = []
 
-winner()
+    player = []
+
+    #Blandar kortleken
+
+    random.shuffle(kortlek)
+
+    start(player, dealer)
+
+    chose()
+
+    if sum(player) <= 21:
+        dealer_play()
+
+    winner()
+    spela = input(str("Vill du spela igen?: "))
