@@ -77,11 +77,17 @@ def end():
 
 def winner():
     if 21 > sum(player) > sum(dealer):
-        print("Du vann!", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
+        print("Du vann! Du vann", pengar, "kr", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
     elif 21 > sum(player) == sum(dealer):
-        print("Dealern vann!", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
+        print("Dealern vann! Du förlorade", pengar, "kr", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
     elif 21 > sum(dealer) > sum(player):
-        print("Dealern vann!", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
+        print("Dealern vann! Du förlorade", pengar, "kr", "Din summa: ", sum(player), "Dealerns summa: ", sum(dealer))
+
+
+#Hur mycket ska du betta
+
+def bet():
+    pengar = input(int("Hur mycket vill du betta i kronor?: "))
 
 
 while spela.lower() == "ja":
@@ -94,6 +100,8 @@ while spela.lower() == "ja":
     player = []
 
     #Blandar kortleken
+
+    bet()
 
     random.shuffle(kortlek)
 

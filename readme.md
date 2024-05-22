@@ -1,6 +1,9 @@
 Loggbok
 -------
 
+Vecka 21:
+Måndag: Idag har jag skrivit prov och gjort så man kan betta pengar. Men det funkar inte riktigt så ska lösa det på torsdag.
+
 Vecka 20:
 Måndag: Idag har jag fixat buggar som gör att spelet inte slutar om man blir bust. Det var ganska lätt. Nästa gång ska jag nog snygga till hur saker printas samt göra så att man kan få black jack med 2 kort.
 
