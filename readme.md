@@ -2,6 +2,8 @@ Loggbok
 -------
 
 Vecka 21:
+Torsdag: Idag har jag gjort så man kan betta i mitt blackjack och en yatzy simulering med lite buggar.
+
 Måndag: Idag har jag skrivit prov och gjort så man kan betta pengar. Men det funkar inte riktigt så ska lösa det på torsdag.
 
 Vecka 20:
