@@ -1,5 +1,9 @@
 Loggbok
 -------
+OBS! bj3.py ÄR MITT SLUTGILTIGA BLACKJACK! DE ANDRA ÄR TIDIGARE ELLER ANDRA VERSIONER SOM JAG SKET I!
+
+Vecka 22:
+Tisdag: Idag har jag gjort så man inte kan få fler vinster på samtidigt. Men den printar ut flera gånger, märkte att på triss printar den 3 gånger och det är när de 2 nästkommande funktionerna körs så tror det har något med det att göra men jag måste lämna in min programering nu så hinner inte fixa eller kolla mer på det.
 
 Vecka 21:
 Torsdag: Idag har jag gjort så man kan betta i mitt blackjack och en yatzy simulering med lite buggar.

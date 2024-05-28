@@ -37,20 +37,20 @@ def fyrtal():
         return False
 
 def triss():
-    if tärningar[0] == tärningar[1] == tärningar[2] or tärningar[1] == tärningar[2] == tärningar[3] or tärningar[2] == tärningar[3] == tärningar[4] and fyrtal() == False and kåk() == False:
+    if tärningar[0] == tärningar[1] == tärningar[2] and fyrtal() == False and kåk() == False or tärningar[1] == tärningar[2] == tärningar[3] and fyrtal() == False and kåk() == False or tärningar[2] == tärningar[3] == tärningar[4] and fyrtal() == False and kåk() == False:
         print("Du fick triss!")
         return True
     else:
         return False
 
 def två_par():
-    if tärningar[0] == tärningar[1] or tärningar[1] == tärningar[2] or tärningar[2] == tärningar[3] or tärningar[3] == tärningar[4] and triss() == False:
+    if tärningar[0] == tärningar[1] and triss() == False or tärningar[1] == tärningar[2] and triss() == False or tärningar[2] == tärningar[3] and triss() == False or tärningar[3] == tärningar[4] and triss() == False:
         print("Du fick tvåpar")
     else:
         return False
 
 def ett_par():
-    if tärningar[0] == tärningar[1] or tärningar[1] == tärningar[2] or tärningar[2] == tärningar[3] or tärningar[3] == tärningar[4] and två_par() == False:
+    if tärningar[0] == tärningar[1] and två_par() == False or tärningar[1] == tärningar[2] and två_par() == False or tärningar[2] == tärningar[3] and två_par() == False or tärningar[3] == tärningar[4] and två_par() == False:
         print("Du fick ettpar!")
 
 
